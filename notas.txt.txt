@@ -1,0 +1,18 @@
+para el proceso  de acuatizar precios a dolares correr spVentaActualizarPrecios y spVerArtPrecioDescuento
+
+
+en pedido el boton actualiza precios por unidad se muestra el boton se activa hasta guardar el movimiento
+deshabiltar el trigger tgActualizaPrecioArt en la tabla ARt (para quitar el menssaje de PROCESO CONCLUIDO al afectar la salida traspaso)
+select * from ProdRutaD 
+delete ProdRutaD where orden=2  --HAY QUE ANOTARLO para eliminar el centro EMBOL
+elininar todas las estacioens de trabajo
+Eliminar los demas centros de trabajo
+Cambiar en las Listas de Materiales el 'usar en'
+
+
+boton/hojeadora y cortadara en entrada de produccion en la version en el servidor de pruebas la version esta bien
+probablemente el boton se activo cuando  se hizo la copia de seguridad
+
+
+
+para los usuarios de ventas cuando marque error de cliente quitar y poner el campo de acceso en la configuracion del usuario

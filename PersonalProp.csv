@@ -1,0 +1,162 @@
+'Propiedad','Orden','Categoria','NivelEmpresa','NivelSucursal','NivelPuesto','NivelCategoria','NivelPersonal','porOmision','Mascara','LongitudMaxima','TipoDatos','Nombre','Descripcion'
+'# Crédito Infonavit',105,'Infonavit',0,0,0,0,1,NULL,NULL,50,'Numerico','# Crédito Infonavit','Capturar No. de Crédito asignado por el Infonavit en el Aviso de Retenciones'
+'# Dias Aguinado',NULL,'Generales',1,0,0,0,0,'15',NULL,50,'Texto','# Dias Aguinado',NULL
+'# Dias Aguinaldo',21,'Prestaciones',1,0,0,0,0,'15',NULL,35,'Numerico','# Dias Aguinaldo','Indique el número de dias de Aguinaldo a pagar'
+'# Dias Ano',69,'Empresa',1,0,0,0,0,'365',NULL,50,'Numerico','# Dias Ano','Dias del año'
+'# Dias Año Trabajado',78,'Exentos y Topes',1,0,0,0,0,'20',NULL,35,'Numerico','# Dias Año Trabajado','Indemnizacion de 20 dias por año trabajado'
+'# Dias Exentos para Prima Vacacional',87,'Exentos y Topes',1,0,0,0,0,'15',NULL,35,'Numerico','# Dias Exentos para Prima Vacacional','# Dias exentos de Salario Minimo General de la Zona para Prima Vacacional'
+'# Dias Mes',70,'Empresa',1,0,0,0,0,'30',NULL,35,'Numerico','# Dias Mes','Dias del mes'
+'# Dias Mes Indemnizacion',81,'Exentos y Topes',1,0,0,0,0,'30',NULL,50,'Numerico','# Dias Mes Indemnizacion','Dias del mes para los 3 meses = 3 x 30 para indemnizacion'
+'# Dias Prima Antiguedad',86,'Exentos y Topes',1,0,0,0,0,'12',NULL,35,'Numerico','# Dias Prima Antiguedad','12 dias de prima de antiguedad por año laborado'
+'# Dias SMZ Exento PTU',100,'PTU',1,0,0,0,0,'15',NULL,35,'Numerico','# Dias SMZ Exento PTU','# Dias exentos de Salario Minimo General de la Zona para PTU'
+'# Dias Subsidiados',NULL,'Empresa',0,0,0,0,0,'0',NULL,50,'Texto','# Dias Subsidiados',NULL
+'# Dias Tope Prima Vacacional',NULL,'Generales',1,0,0,0,0,'15',NULL,50,'Texto','# Dias Tope Prima Vacacional',NULL
+'# Maximas Horas Dobles ',NULL,'Generales',1,0,0,0,0,'9',NULL,50,'Texto','# Maximas Horas Dobles ',NULL
+'# Maximo Dias con Horas Dobles',8,'Horas Extras',1,0,0,0,0,'3',NULL,50,'Numerico','# Maximo Dias con Horas Dobles','Numero maximo de dias para laborar horas extras según LFT'
+'# Maximo Horas Dobles x Dia',10,'Horas Extras',1,0,0,0,0,'3',NULL,50,'Numerico','# Maximo Horas Dobles x Dia','Cantidad máxima de horas dobles por día Según LFT'
+'# Meses Indemnizacion',80,'Exentos y Topes',1,0,0,0,0,'3',NULL,35,'Numerico','# Meses Indemnizacion','Indemnizacion de 3 meses por despido injustificado'
+'# Retardos General Falta',NULL,'Generales',1,0,0,0,0,NULL,NULL,50,'Texto','# Retardos General Falta',''
+'# SMGDF Credito Infonavit',108,'Infonavit',0,0,0,0,1,NULL,NULL,35,'Numerico','# SMGDF Credito Infonavit','Capturar el Número de Salarios Mínimos que se deberán descontar al empleado de acuerdo al Aviso de Retenciones'
+'# SMZ Exento Año Antiguedad',82,'Exentos y Topes',1,0,0,0,0,'90',NULL,35,'Numerico','# SMZ Exento Año Antiguedad','90 dias Exentos para prima de antiguedad'
+'# SMZ Exento PTU',NULL,'Generales',1,0,0,0,0,'15',NULL,50,'Texto','# SMZ Exento PTU',NULL
+'# SMZ Exentos Aguinaldo',83,'Exentos y Topes',1,0,0,0,0,'30',NULL,35,'Numerico','# SMZ Exentos Aguinaldo','Dias de Aguinaldo Exentos'
+'# SMZ Exentos Prima Vacacional',84,'Exentos y Topes',1,0,0,0,0,'15',NULL,35,'Numerico','# SMZ Exentos Prima Vacacional','15 días exentos para Prima Vacacional'
+'# SMZ Prima Antiguedad',85,'Exentos y Topes',1,0,0,0,0,'2',NULL,35,'Numerico','# SMZ Prima Antiguedad','Tope de 2 dias de SMZ para Prima de Antiguedad por año laborado'
+'# SMZ Tope Horas Dobles',9,'Horas Extras',1,0,0,0,0,'5',NULL,35,'Numerico','# SMZ Tope Horas Dobles','Tope de 5 VSMZ'
+'#SMZ Tope Horas Dobles',NULL,'Empresa',1,0,0,0,0,'5',NULL,50,'Texto','#SMZ Tope Horas Dobles',NULL
+'% Deducible Percepciones Exentas',7,'ISR',1,0,0,0,0,'57',NULL,50,'Numerico','% Deducible Percepciones Exentas','Indique que porcentaje es deducible para las percepciones Exentas'
+'% Exento permitido',NULL,'Empresa',1,0,0,0,0,'53',NULL,50,'Texto','% Exento permitido',NULL
+'% Fondo Ahorro de Empleado',75,'Fondo de Ahorro',1,0,0,0,0,'13',NULL,50,'Numerico','% Fondo Ahorro de Empleado','% de Aportación al fondo de ahorro del Empleado'
+'% Fondo Ahorro de Empresa',76,'Fondo de Ahorro',1,0,0,0,0,'13',NULL,50,'Numerico','% Fondo Ahorro de Empresa','% de Aportación al fondo de ahorro de la Empresa'
+'% Horas Extras Gravable',NULL,'Generales',1,0,0,0,0,NULL,NULL,50,'Texto','% Horas Extras Gravable',NULL
+'% Impuesto Nomina',61,'Empresa',1,0,0,0,0,'2.5',NULL,50,'Texto','% Impuesto Nomina',''
+'% IMSS Obrero CV',128,'IMSS',1,0,0,0,0,'1.125',NULL,35,'Numerico','% IMSS Obrero CV','Art. 168 - II  Ley del IMSS'
+'% IMSS Obrero EM Excedente',124,'IMSS',1,0,0,0,0,'0.4',NULL,35,'Numerico','% IMSS Obrero EM Excedente','Art. 106-II Ley del IMSS'
+'% IMSS Obrero EM Gastos Medicos',126,'IMSS',1,0,0,0,0,'0.375',NULL,35,'Numerico','% IMSS Obrero EM Gastos Medicos','Art. 25 Ley del IMSS'
+'% IMSS Obrero EM Prestaciones Dinero',125,'IMSS',1,0,0,0,0,'0.25',NULL,35,'Numerico','% IMSS Obrero EM Prestaciones Dinero','Art. 107 I y II Ley del IMSS'
+'% IMSS Obrero IV',127,'IMSS',1,0,0,0,0,'0.625',NULL,35,'Numerico','% IMSS Obrero IV','Art. 147 Ley del IMSS'
+'% IMSS Patron CV',123,'IMSS',1,0,0,0,0,'3.15',NULL,35,'Numerico','% IMSS Patron CV','Art. 168 - II  Ley del IMSS'
+'% IMSS Patron EM Cuota Fija',116,'IMSS',1,0,0,0,0,'20.4',NULL,35,'Numerico','% IMSS Patron EM Cuota Fija','Art 106-I Ley del IMSS'
+'% IMSS Patron EM Excedente',117,'IMSS',1,0,0,0,0,'1.1',NULL,35,'Numerico','% IMSS Patron EM Excedente','Art. 106-II Ley del IMSS'
+'% IMSS Patron EM Gastos Medicos',119,'IMSS',1,0,0,0,0,'1.05',NULL,35,'Numerico','% IMSS Patron EM Gastos Medicos','Art. 25 Ley del IMSS'
+'% IMSS Patron EM Prestaciones Dinero',118,'IMSS',1,0,0,0,0,'0.7',NULL,35,'Numerico','% IMSS Patron EM Prestaciones Dinero','Art. 107 I y II Ley del IMSS'
+'% IMSS Patron Guarderias',121,'IMSS',1,0,0,0,0,'1',NULL,35,'Numerico','% IMSS Patron Guarderias','Art. 211 Ley del IMSS'
+'% IMSS Patron IV',120,'IMSS',1,0,0,0,0,'1.75',NULL,35,'Numerico','% IMSS Patron IV','Art. 147 Ley del IMSS'
+'% IMSS Patron Retiro',122,'IMSS',1,0,0,0,0,'2',NULL,35,'Numerico','% IMSS Patron Retiro','Art. 168 - I Ley del IMSS'
+'% IMSS Patron Riesgo',115,'IMSS',0,0,0,0,1,'0.76077',NULL,50,'Numerico','% IMSS Patron Riesgo','Art. 71 Ley del IMSS'
+'% Infonavit Patron',110,'Infonavit',1,0,0,0,0,'5',NULL,35,'Numerico','% Infonavit Patron','Capture el % de aportacion Patronal para Infonavit'
+'% Maximo Descuento',62,'Empresa',1,0,0,0,0,'35',NULL,35,'Texto','% Maximo Descuento',''
+'% Premio Asistencia',14,'P Asist y Punt',1,0,0,0,0,'10',NULL,50,'Numerico','% Premio Asistencia','Capturar el porcentaje de Premio de Asistencia'
+'% Premio Puntualidad',19,'P Asist y Punt',1,0,0,0,0,'10',NULL,50,'Numerico','% Premio Puntualidad','Capturar el porcentaje de Premio de Puntualidad'
+'% Prima Dominical',22,'Prestaciones',1,0,0,0,0,'25',NULL,35,'Numerico','% Prima Dominical','Indicar el % que se pagará de Prima Dominical'
+'% Prima Vacacional',23,'Prestaciones',1,0,0,0,0,'25',NULL,35,'Numerico','% Prima Vacacional','Indicar el % que se pagará de Prima Vacacional'
+'% SDI Credito Infonavit',107,'Infonavit',0,0,0,0,1,NULL,NULL,50,'Numerico','% SDI Credito Infonavit','Capturar el Porcentaje a descontar al empleado de acuerdo con el Aviso de Retenciones'
+'% SHCP Tope Horas Extras Excentas',NULL,'Generales',1,0,0,0,0,'9',NULL,50,'Texto','% SHCP Tope Horas Extras Excentas',NULL
+'% Subsidio Acreditable',NULL,'Generales',1,0,0,0,0,'100',NULL,50,'Texto','% Subsidio Acreditable',NULL
+'% Tope IMSS Premio Asistencia',12,'P Asist y Punt',1,0,0,0,0,'10',NULL,50,'Numerico','% Tope IMSS Premio Asistencia','Indique el porcentaje con el que se topara el Premio de Asistencia conforme al IMSS'
+'% Tope IMSS Premio Puntualidad',17,'P Asist y Punt',1,0,0,0,0,'10',NULL,50,'Numerico','% Tope IMSS Premio Puntualidad','Indique el porcentaje con el que se topara el Premio de Asistencia conforme al IMSS'
+'% Vales Despensa',32,'Vales Despensa',1,0,0,0,0,'10',NULL,50,'Texto','% Vales Despensa','Capturar el porcentaje de Vales de Despensa'
+'%FA>1A',NULL,'Empresa',1,0,0,0,0,'0.06',NULL,50,'Numerico','%FA>1A',NULL
+'%FA>6M',NULL,'Empresa',1,0,0,0,0,'0.03',NULL,50,'Numerico','%FA>6M',NULL
+'Acreedor Caja de Ahorro',57,'Acreedores',1,0,0,0,0,NULL,NULL,50,'Texto','Acreedor Caja de Ahorro','Clave del Acreedor de Caja de Ahorro'
+'Acreedor Cuota Sindical',49,'Acreedores',1,0,0,0,0,NULL,NULL,50,'Texto','Acreedor Cuota Sindical','Importe retenido al empleado por concepto de cuota sindical'
+'Acreedor Fonacot',54,'Acreedores',1,0,0,0,0,'FONACOT',NULL,35,'Texto','Acreedor Fonacot','Clave del Acreedor del FONACOT'
+'Acreedor Fondo de Ahorro',55,'Acreedores',1,0,0,0,0,NULL,NULL,50,'Texto','Acreedor Fondo de Ahorro','Clave del Acreedor del FONDO DE AHORRO'
+'Acreedor Fondo de Ahorro2',NULL,'Empresa',1,0,0,0,0,'Fondo de Ahorro2',NULL,50,'Texto','Acreedor Fondo de Ahorro2',NULL
+'Acreedor Impuesto Estatal',52,'Empresa',1,0,0,0,0,'SFIN ',NULL,50,'Texto','Acreedor Impuesto Estatal',''
+'Acreedor IMSS',51,'Acreedores',1,0,0,0,0,'IMSS',NULL,35,'Texto','Acreedor IMSS','Clave del Acreedor del IMSS'
+'Acreedor Infonavit',53,'Acreedores',1,0,0,0,0,'IMSS',NULL,35,'Texto','Acreedor Infonavit','Clave del Acreedor del INFONAVIT'
+'Acreedor infonvit',NULL,'Empresa',1,0,0,0,0,'INFONAVIT',NULL,50,'Texto','Acreedor infonvit',NULL
+'Acreedor Nomina',48,'Acreedores',1,0,0,0,0,'NOMINA',NULL,50,'Texto','Acreedor Nomina','Utilizada para la transferencia de Nomina por pago electronico'
+'Acreedor Nomina Asimilables',37,'Acreedores',1,0,0,0,0,'ASIM',NULL,50,'Texto','Acreedor Nomina Asimilables','Clave del Acreedor para Pago de Nomina Asimilable'
+'Acreedor SHCP',50,'Acreedores',1,0,0,0,0,'SHCP',NULL,35,'Texto','Acreedor SHCP','Clave del Acreedor del ISR'
+'Acreedor Vales',56,'Acreedores',1,0,0,0,0,'DESPENSA',NULL,50,'Texto','Acreedor Vales','Clave Acreedor Vales de Despensa'
+'Activar CXP',46,'Acreedores',1,0,0,0,0,'0',NULL,50,'Numerico','Activar CXP','1="Si", se enviarán movimientos al módulo CxP, 0="No", no se enviarán'
+'Activar Gastos',47,'Acreedores',1,0,0,0,0,'0',NULL,50,'Numerico','Activar Gastos','1="Si", se enviarán movimientos al módulo Gastos, 0="No", no se enviarán'
+'ADT',NULL,'Configuracion',1,0,0,0,0,'5',NULL,50,'Texto','ADT',NULL
+'Ajuste Anual ISR',90,'ISR',1,0,0,0,0,'1',NULL,50,'Numerico','Ajuste Anual ISR','1="SI" Se realizará Ajuste Anual 0="No" no se aplicará ajuste Anual'
+'Ajuste Anual ISR Asimilables',91,'ISR',1,0,0,0,0,'1',NULL,50,'Texto','Ajuste Anual ISR Asimilables','1="SI" Se realizará Ajuste Anual 0="No" no se aplicará ajuste Anual'
+'Ajuste Mensual ISR',94,'ISR',1,0,0,0,0,'1',NULL,35,'Numerico','Ajuste Mensual ISR','1="SI" Se realizará Ajuste Mensuall 0="No" no se aplicará Ajuste Mensual'
+'Anticipar Modificacion SDI por Antiguedad',112,'IMSS',1,0,0,0,0,'1',NULL,50,'Numerico','Anticipar Modificacion SDI por Antiguedad','1="Si", se anticipará 62 días el cálculo del SDI por antiguedad, 0="No", no se anticipará.'
+'Año Saldo a Favor',5,'ISR',0,0,0,0,1,NULL,NULL,50,'Texto','Año Saldo a Favor',NULL
+'Aplicar Factor de Ausentismo',63,'Empresa',1,0,0,0,0,'1',NULL,35,'Numerico','Aplicar Factor de Ausentismo','1="SI", 0="NO",'
+'Aportacion Caja de Ahorro',30,'Caja de Ahorro',0,0,0,0,1,NULL,NULL,50,'Numerico','Aportacion Caja de Ahorro','Indicar el importe que aportará el empleado a la caja de ahorro'
+'Aportacion Cuota Sindical',60,'Empresa',1,0,0,0,0,'',NULL,50,'Numerico','Aportacion Cuota Sindical','Especificar el importe de aportación por Empleado al sindicato'
+'Ayuda Defuncion',27,'Prestaciones',1,0,0,0,0,'0',NULL,50,'Numerico','Ayuda Defuncion','Se refiere al importe que aporta el empleado como ayuda por gastos de defuncion a otro empleado'
+'Calcular Asistencia con SD o SDI',15,'P Asist y Punt',1,0,0,0,0,'2',NULL,50,'Numerico','Calcular Asistencia con SD o SDI','1="Se Calculará con Sueldo Diario", 2="Se calculará con SDI"'
+'Calcular Puntualidad con SD o SDI',20,'P Asist y Punt',1,0,0,0,0,'2',NULL,50,'Numerico','Calcular Puntualidad con SD o SDI','1="Se Calculará con Sueldo Diario", 2="Se calculará con SDI"'
+'Calculo de ISR de Aguinaldo segun Ley',89,'ISR',1,0,0,0,0,'1',NULL,50,'Numerico','Calculo de ISR de Aguinaldo segun Ley','1= Se aplicará el cálculo según Ley, 0= Se aplicará el cálculo según Reglamento'
+'Calculo de ISR de PTU segun Ley',88,'ISR',1,0,0,0,0,'1',NULL,50,'Numerico','Calculo de ISR de PTU segun Ley','1= Se aplicará el cálculo según Ley, 0= Se aplicará el cálculo según Reglamento'
+'CHEQUEO LIBRE',NULL,'Generales',0,0,0,0,0,'0',NULL,1,'Numerico','CHEQUEO LIBRE',NULL
+'Credito al salario como Percepcion',NULL,'Configuracion',1,0,0,0,0,'No',NULL,50,'Texto','Credito al salario como Percepcion',NULL
+'Credito Fijo Infonavit',109,'Infonavit',0,0,0,0,1,NULL,NULL,50,'Numerico','Credito Fijo Infonavit','Capturar el Importe fijo mensual a descontar al empleado de acuerdo con el Aviso de Retenciones'
+'CTESUBSIDIO',NULL,'Configuracion',1,0,0,0,0,'0002',NULL,50,'Texto','CTESUBSIDIO',NULL
+'Cuota Sindical',NULL,'Empresa',1,0,0,0,0,'0.015',NULL,50,'Numerico','Cuota Sindical',NULL
+'Declaracion Anual ISR por Separado',92,'ISR',0,0,0,0,1,'0',NULL,50,'Numerico','Declaracion Anual ISR por Separado','1="SI" El empleado presentará por su cuenta la declaración anual, 0="NO" La Empresa presentará la declaración anual'
+'Descontar Ausentismo en Aguinaldo',58,'Empresa',1,0,0,0,0,'1',NULL,50,'Numerico','Descontar Ausentismo en Aguinaldo','1="Si" y 0="No"'
+'Descontar Ausentismo en PTU',59,'Empresa',1,0,0,0,0,'1',NULL,50,'Numerico','Descontar Ausentismo en PTU','1="Si" y 0="No"'
+'Factor Ausentismo Catorcenal',66,'Empresa',1,0,0,0,0,'1.167',NULL,50,'Numerico','Factor Ausentismo Catorcenal','Indicar el factor de ausentismo a aplicar en nómina catorcenal'
+'Factor Ausentismo Decenal',65,'Empresa',1,0,0,0,0,'1.4',NULL,50,'Numerico','Factor Ausentismo Decenal','Indicar el factor de ausentismo a aplicar en nómina decenal'
+'Factor Ausentismo Mensual',68,'Empresa',1,0,0,0,0,'1.4',NULL,50,'Numerico','Factor Ausentismo Mensual','Indicar el factor de ausentismo a aplicar en nómina mensual'
+'Factor Ausentismo Quincenal',67,'Empresa',1,0,0,0,0,'1',NULL,50,'Numerico','Factor Ausentismo Quincenal','Indicar el factor de ausentismo a aplicar en nómina quincenal'
+'Factor Ausentismo Semanal',64,'Empresa',1,0,0,0,0,'1.1667',NULL,50,'Numerico','Factor Ausentismo Semanal','Indicar el factor de ausentismo a aplicar en nómina semanal'
+'Factor Falta',NULL,'Configuracion',1,0,0,0,0,'1.1667',NULL,50,'Texto','Factor Falta',NULL
+'Factor Mensualizacion Catorcenal',96,'ISR',1,0,0,0,0,'30.4',NULL,50,'Numerico','Factor Mensualizacion Catorcenal','Factor utilizado para mensualizar la base gravable de las nóminas Catorcenales.'
+'Factor Mensualizacion Decenal',97,'ISR',1,0,0,0,0,'30',NULL,50,'Numerico','Factor Mensualizacion Decenal','Factor utilizado para mensualizar la base gravable de las nóminas Decenales.'
+'Factor Mensualizacion Quincenal',95,'ISR',1,0,0,0,0,'30',NULL,50,'Numerico','Factor Mensualizacion Quincenal','Factor utilizado para mensualizar la base gravable de las nóminas Quincenales.'
+'Factor Mensualizacion Semanal',98,'ISR',1,0,0,0,0,'30.4',NULL,50,'Numerico','Factor Mensualizacion Semanal','Factor utilizado para mensualizar la base gravable de las nóminas Semanales'
+'Faltas Proporcional Segun Jornada',NULL,'Configuracion',1,0,0,0,0,'si',NULL,50,'Texto','Faltas Proporcional Segun Jornada',NULL
+'Incapacidades a pagar',NULL,'Generales',1,0,0,0,0,'3',NULL,50,'Texto','Incapacidades a pagar',NULL
+'Indemnizacion Con Proporcion ultimo año',79,'Exentos y Topes',1,0,0,0,0,'1',NULL,50,'Numerico','Indemnizacion Con Proporcion ultimo año','1= Se calcula con años completos, 2= Se calcula con Años completos mas proporcion ultimo año'
+'Limitar Asistencia al Tope de Ley',13,'P Asist y Punt',1,0,0,0,0,'1',NULL,50,'Numerico','Limitar Asistencia al Tope de Ley','1="SI", se limitara al tope de Ley, 0="NO" No se limitara'
+'Limitar Fondo Ahorro al Tope de Ley',73,'Fondo de Ahorro',1,0,0,0,0,'1',NULL,50,'Numerico','Limitar Fondo Ahorro al Tope de Ley','Limitar la prestación Fondo de Ahorro al Tope de ley 1="SI", 0="NO"'
+'Limitar Puntualidad al Tope de Ley',18,'P Asist y Punt',1,0,0,0,0,'1',NULL,50,'Numerico','Limitar Puntualidad al Tope de Ley','1="SI", se limitara al tope de Ley, 0="NO" No se limitara'
+'Nomina Anexo 20',3,'Empresa',1,0,0,0,0,'0',NULL,50,'Numerico','Nomina Anexo 20','si tiene=1 entonces nuevos catalogos si =0 anteriores'
+'Nomina Version 12',4,'Empresa',1,0,0,0,0,'1',NULL,50,'Numerico','Nomina Version 12','Nomina Version 12'
+'Pago de Prima Vac Por Captura',26,'Prestaciones',1,0,0,0,0,'1',NULL,50,'Numerico','Pago de Prima Vac Por Captura','1="SI", se capturaran los dias de PV a pagar en forma independiente, 0="NO", No se generara'
+'Pago de Prima Vac Sobre Vac Disfrutadas',25,'Prestaciones',1,0,0,0,0,'1',NULL,50,'Numerico','Pago de Prima Vac Sobre Vac Disfrutadas','1="SI" se pagara la PV en funcion de los dias de Vacacciones Disfrutados, 0="NO", No se generara'
+'Pago de Prima Vacacional Automatico',24,'Prestaciones',1,0,0,0,0,'1',NULL,50,'Numerico','Pago de Prima Vacacional Automatico','1="SI" Se generara la Prima Vacacional en automático al aniversario 0="NO" no se generara'
+'Pago Prim Antiguedad Antes 15 Años',77,'Exentos y Topes',0,0,0,0,0,'0',NULL,50,'Numerico','Pago Prim Antiguedad Antes 15 Años','1=Si, si se desea pagar la prima de antiguedad aunque el empleado no tenga los 15 años que marca la ley. 0=NO'
+'Pago Saldo a Favor',NULL,'ISR',0,0,0,0,1,NULL,NULL,50,'Numerico','Pago Saldo a Favor','1.- Se Aplica el l Saldo a Favor; 0.- No se Aplica el Saldo a Favor'
+'Pagos IMSS en Nomina',NULL,'Configuracion',1,0,0,0,0,'si',NULL,50,'Texto','Pagos IMSS en Nomina',NULL
+'Pension Alimenticia 2 Beneficiario',45,'Trabajador',0,0,0,0,1,NULL,NULL,50,'Texto','Pension Alimenticia 2 Beneficiario','Clave del Acreedor de la Pension Alimenticia'
+'Pension Alimenticia 2 Cuota Fija',44,'Trabajador',0,0,0,0,1,NULL,NULL,50,'Numerico','Pension Alimenticia 2 Cuota Fija','Indicar el importe a descontar'
+'Pension Alimenticia 2 Sueldo Bruto %',42,'Trabajador',0,0,0,0,1,NULL,NULL,50,'Numerico','Pension Alimenticia 2 Sueldo Bruto %','Indicar porcentaje a descontar'
+'Pension Alimenticia 2 Sueldo Neto %',43,'Trabajador',0,0,0,0,1,NULL,NULL,50,'Numerico','Pension Alimenticia 2 Sueldo Neto %','Indicar porcentaje a descontar'
+'Pension Alimenticia Beneficiario',41,'Trabajador',0,0,0,0,1,'',NULL,35,'Texto','Pension Alimenticia Beneficiario','Clave del Acreedor de la Pension Alimenticia'
+'Pension Alimenticia Cuota Fija',40,'Trabajador',0,0,0,0,1,'',NULL,50,'Numerico','Pension Alimenticia Cuota Fija','Indicar el importe a descontar'
+'Pension Alimenticia Sueldo Bruto %',38,'Trabajador',0,0,0,0,1,NULL,NULL,50,'Numerico','Pension Alimenticia Sueldo Bruto %','Indicar porcentaje a descontar'
+'Pension Alimenticia Sueldo Neto %',39,'Trabajador',0,0,0,0,1,NULL,NULL,50,'Numerico','Pension Alimenticia Sueldo Neto %','Indicar porcentaje a descontar'
+'Periodo de Caja de Ahorro',28,'Caja de Ahorro',1,0,0,0,0,'1',NULL,50,'Numerico','Periodo de Caja de Ahorro','1 = Periodo de Diciembre a Noviembre, 2 = Periodo de Enero a Diciembre'
+'Periodo de Fondo de Ahorro',72,'Fondo de Ahorro',1,0,0,0,0,'1',NULL,50,'Numerico','Periodo de Fondo de Ahorro','1= Periodo de Diciembre a Noviembre, 2= Periodo de Enero a Diciembre'
+'Periodo Tec',NULL,'Empresa',1,0,0,0,0,'5.75',NULL,50,'Texto','Periodo Tec',NULL
+'Periodo Tec Quin',NULL,'Empresa',0,0,0,0,0,'12.5',NULL,50,'Texto','Periodo Tec Quin',NULL
+'Premio de Asistencia',NULL,'Configuracion',1,0,0,0,0,'1',NULL,50,'Texto','Premio de Asistencia',NULL
+'Premio Puntuaidad',NULL,'Configuracion',1,0,0,0,0,'1',NULL,50,'Texto','Premio Puntuaidad',NULL
+'Prestacion Caja de Ahorro',29,'Caja de Ahorro',1,0,0,0,0,'1',NULL,50,'Numerico','Prestacion Caja de Ahorro','Activar Cja de Ahorro? 1="Si" y 0="No"'
+'Prestacion de Vales de Despensa',31,'Vales Despensa',1,0,0,0,0,'1',NULL,50,'Numerico','Prestacion de Vales de Despensa','La empresa otroga Vales de Despensa 1="Si", 0="No"'
+'Prestacion Fondo Ahorro',71,'Fondo de Ahorro',1,0,0,0,0,'1',NULL,50,'Numerico','Prestacion Fondo Ahorro','La empresa otorga Fondo de Ahorro? 1="Si" y 0="No"'
+'Prestacion Premio de Asistencia',11,'P Asist y Punt',1,0,0,0,0,'1',NULL,50,'Numerico','Prestacion Premio de Asistencia','La empresa otorga Premio de Asistencia 1="Si" y 0="No"'
+'Prestacion Premio de Puntualidad',16,'P Asist y Punt',1,0,0,0,0,'1',NULL,50,'Numerico','Prestacion Premio de Puntualidad','La empresa otorga Premio de Puntualidad 1="Si" y 0="No"'
+'Prestamo Infonavit',111,'Infonavit',0,0,0,0,1,NULL,NULL,50,'Numerico','Prestamo Infonavit','Indique el Importe a Retener por Prestamo del Infonavit'
+'Registro Infonavit',NULL,'Empresa',1,0,0,0,0,NULL,NULL,50,'Texto','Registro Infonavit',NULL
+'Registro Patronal',113,'IMSS',0,1,0,0,0,'E2610736100',NULL,50,'Texto','Registro Patronal','Indicar el registro patronal para la Sucursal'
+'Seguro Vivienda',106,'Infonavit',1,0,0,0,0,'15',NULL,50,'Numerico','Seguro Vivienda','Importe de aportacion para el seguro de vivienda'
+'Sueldo Maximo para Ajuste de ISR',93,'ISR',1,0,0,0,0,'400000',NULL,50,'Numerico','Sueldo Maximo para Ajuste de ISR','Indique el importe de Ingresos Anuales para determinar si se realiza ajuste anual'
+'Sueldo Topado mas 20%',102,'PTU',1,0,0,0,0,NULL,NULL,50,'Numerico','Sueldo Topado mas 20%','Se refiere al total del sueldo anual percibido por el empleado sindicalizado o de confianza incrementado en un 20%'
+'Topar Vales para IMSS',34,'Vales Despensa',1,0,0,0,0,'1',NULL,50,'Numerico','Topar Vales para IMSS','1="Si", Se toparan para IMSS, 0="No", No se toparan'
+'Topar Vales para ISR',36,'Vales Despensa',1,0,0,0,0,'1',NULL,50,'Numerico','Topar Vales para ISR','1="Si", Se topará para ISR, 0="No", No se toparan'
+'Tope 25 VSMGDF',114,'IMSS',1,0,0,0,0,'25',NULL,50,'Numerico','Tope 25 VSMGDF','Art. 28 Ley del IMSS'
+'Tope Fondo de Ahorro',74,'Fondo de Ahorro',1,0,0,0,0,'1.3',NULL,50,'Numerico','Tope Fondo de Ahorro','Tope Fondo de Ahorro = 10% de 13 vsmg = 1.3'
+'Tope IMSS Vales Despensa',33,'Vales Despensa',1,0,0,0,0,'40',NULL,50,'Numerico','Tope IMSS Vales Despensa','Indique el porcentaje para topar los vales de despensa conforme al IMSS'
+'Tope ISR Vales Despensa',35,'Vales Despensa',1,0,0,0,0,'1',NULL,50,'Numerico','Tope ISR Vales Despensa','1 Mes de Salario Minimo "Tope de los Vales de Despensa para ISR"'
+'Total de Dias Trabajados',104,'PTU',1,0,0,0,0,'60',NULL,50,'Numerico','Total de Dias Trabajados','Se refiere a la suma del total de los dias trabajados por todos los empleados de la empresa'
+'Total de Sueldos Pagados',103,'PTU',1,0,0,0,0,'0',NULL,50,'Numerico','Total de Sueldos Pagados','Se refiere a la suma del total de sueldos pagados a todos los empleados'
+'Ultima Nomina Bimestre',6,'Trabajador',0,0,0,0,1,NULL,NULL,50,'Texto','Ultima Nomina Bimestre',NULL
+'UMA',1,'Empresa',1,0,0,0,0,'75.49',NULL,50,'Numerico','UMA','Unidad de Medida Actualizada'
+'Utilidad a Repartir',101,'PTU',1,0,0,0,0,'0',NULL,50,'Numerico','Utilidad a Repartir','Se refiere a la utilidad que será repartida a los empleados'
+'Vales de Despensa',NULL,'Generales',1,0,0,0,0,'700',NULL,50,'Numerico','Vales de Despensa',NULL
+
+
+/** Tabla1=PersonalProp **/
+/** Fin de Archivo **/

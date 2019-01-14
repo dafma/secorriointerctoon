@@ -1,0 +1,9 @@
+Modificados
+spSerieLoteFlujo ok
+spSeriesLotesMayoreo ok
+spSeriesLotesMayoreoDisminuir ok
+
+Regresar de la 6000 
+spAfectar ok
+spInv ok
+spInvAfectar ok

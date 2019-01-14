@@ -1,0 +1,10 @@
+Quitar 
+CFDFlex.esp
+CFD.esp
+CFDI33CatalogosSAT.esp
+CFD_2012_Concepto.esp
+CFD_2012_CteCFD.esp
+CFD_2012_Empresa.esp
+CFD_2012_EmpresaCampoRegimen.esp
+CFD_2012_MovTipo.esp
+pMenuPrincipal.esp

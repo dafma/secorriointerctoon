@@ -1,0 +1,1 @@
+se omitio por que lo que intenta inservar en la tabla ya existe

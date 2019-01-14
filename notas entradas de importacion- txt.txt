@@ -1,0 +1,2 @@
+el sp que corrige es spImportarInv importar y exportar
+y hay que correr antes de afectar y despues de afectar

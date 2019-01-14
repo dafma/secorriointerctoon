@@ -1,0 +1,24 @@
+Modificacion Documento electronico JAsper3.3
+Seccion Total4
+campo 1
+(select ISNULL(dbo.fnCFDIRelacionado(CFDModuloID), ' '))
+Campo2
+(select ISNULL(dbo.fnCFDITipoRelacionado(CFDModuloID), ' '))
+campo3
+(select ISNULL(dbo.fnMoneda(CFDModuloID), ' '))
+
+Encabezado
+CondicionformadePAgo
+(select ISNULL(dbo.fnFormadePago(CFDModuloID), ' '))
+NumCtaPago
+(select ISNULL(dbo.fnCondicionPago(CFDModuloID), ' '))
+
+Detalle
+Campo1
+(select ISNULL(dbo.fnClaveUnidad(ID,VentaDRenglonID), ' '))
+Campo2
+(select ISNULL(dbo.fnClaveArticulo(ID,VentaDRenglonID), ' '))
+Campo3
+(select ISNULL(dbo.fnClaveUnidadM2(ID,VentaDRenglonID), ' '))
+
+

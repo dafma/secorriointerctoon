@@ -1,0 +1,14 @@
+CFDVentaV33Reporte
+CFDVentaFiscalRegimen
+CFDVentaV33Reporte
+CFDVentaDV33Reporte
+CFDVentaPedimento
+CFDVentaDV33Reporte
+CFDVentaV33Reporte
+CFDVentaMovRetencion
+CFDVentaV33Reporte
+CFDVentaMovImpuesto
+CFDVentaV33Reporte
+CFDVentaCadenaOriginal
+CFDVentaRelacionado
+CFDVentaV33Reporte

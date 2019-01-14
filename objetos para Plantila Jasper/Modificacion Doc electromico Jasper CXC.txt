@@ -1,0 +1,8 @@
+Documento electronico Jasper_CFDI_3.3  (cuentas pro Cobrar)
+
+Encabezado
+FormaPago
+(SELECT dbo.fneDocCxcReferenciaMetodoCobro(CFDModuloID, 0))
+Total4
+Campo1
+(select ISNULL(dbo.fnFormapagoInter(CFDModuloID), ' '))

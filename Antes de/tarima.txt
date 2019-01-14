@@ -1,0 +1,2 @@
+alter table art drop constraint DF__Art__Tarima__1ADB23B3 
+alter table art drop column tarima

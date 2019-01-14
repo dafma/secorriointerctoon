@@ -1,0 +1,1 @@
+alter table ReportesPorLinea add EsTituloSeccion bit null 
